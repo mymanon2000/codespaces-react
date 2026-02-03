@@ -1,3 +1,11 @@
+.wikipedia-search-bar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #222;
+  padding: 16px 24px 8px 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
 .App {
   text-align: center;
 }
@@ -19,13 +27,18 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #ff69b4;
 }
 
 .heart {
   color: #ff0000;
+  button {
+    background: #ff69b4 !important;
+    color: #fff !important;
+  }
 }
 
 .small {
   font-size: 0.75rem;
+  color: #ff69b4;
 }
