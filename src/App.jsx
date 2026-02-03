@@ -38,7 +38,7 @@ function WikipediaSearchBar() {
           onChange={e => setQuery(e.target.value)}
           style={{ flex: 1, padding: 8, borderRadius: 4, border: '1px solid #ccc' }}
         />
-        <button type="submit" style={{ padding: '8px 16px', borderRadius: 4, border: 'none', background: '#61dafb', color: '#222', fontWeight: 'bold' }}>
+        <button type="submit" style={{ padding: '8px 16px', borderRadius: 4, border: 'none', background: '#ff69b4', color: '#fff', fontWeight: 'bold' }}>
           Rechercher
         </button>
       </form>
@@ -52,7 +52,7 @@ function WikipediaSearchBar() {
                 href={`https://fr.wikipedia.org/?curid=${item.pageid}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                style={{ color: '#61dafb', textDecoration: 'underline' }}
+                style={{ color: '#ff69b4', textDecoration: 'underline' }}
               >
                 {item.title}
               </a>

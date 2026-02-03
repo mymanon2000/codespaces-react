@@ -27,13 +27,18 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #ff69b4;
 }
 
 .heart {
   color: #ff0000;
+  button {
+    background: #ff69b4 !important;
+    color: #fff !important;
+  }
 }
 
 .small {
   font-size: 0.75rem;
+  color: #ff69b4;
 }
